@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TheFirm.Model.Workers
 {
+	/// <summary>
+	/// Class <c>Sweeper</c> inherets from Employee only, without adding any other features for itself.
+	/// </summary>
 	internal class Sweeper:Employee
 	{
 

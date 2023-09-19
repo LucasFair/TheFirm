@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TheFirm.Model.Workers
 {
+	/// <summary>
+	/// Class <c>ProjectManger</c> inherets Manager, as well as Employee.
+	/// </summary>
 	internal class ProjectManager:Manager
 	{
 		protected private string _mailAddrs;

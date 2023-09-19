@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TheFirm.Model.Workers
 {
+	/// <summary>
+	/// Class <c>Manager</c> is a class that inherets from the super class, Employees.
+	/// </summary>
 	internal class Manager:Employee
 	{
 		protected private int _phoneNum;
